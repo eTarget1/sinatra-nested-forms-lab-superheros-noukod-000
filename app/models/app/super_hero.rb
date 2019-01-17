@@ -1,5 +1,5 @@
 class SuperHero
-  attr_accessor :name, :power, :bio
+  attr_reader :name, :power, :bio
 
   SUPERHEROES = []
 
